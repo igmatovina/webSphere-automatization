@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<data>
+	<scope Cluster="Controller">
+		<settings>
+			<name>CONTROLLER_CCMS</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>/app/ccms/rel3_t1/config;/app/ccms/rel3_t1/lib/bcprov-jdk15on-1.56.jar;/app/ccms/rel3_t1/lib/commons-beanutils-1.9.3.jar;/app/ccms/rel3_t1/lib/commons-configuration2-2.2.jar;/app/ccms/rel3_t1/lib/commons-digester-1.8.jar;/app/ccms/rel3_t1/lib/commons-fileupload-1.3.3.jar;/app/ccms/rel3_t1/lib/commons-io-2.2.jar;/app/ccms/rel3_t1/lib/commons-lang3-3.4.jar;/app/ccms/rel3_t1/lib/commons-vfs2-2.0.jar;/app/ccms/rel3_t1/lib/guava-19.0.jar;/app/ccms/rel3_t1/lib/gwt-servlet-deps.jar;/app/ccms/rel3_t1/lib/gwt-servlet.jar;/app/ccms/rel3_t1/lib/itext-2.1.7.js5.jar;/app/ccms/rel3_t1/lib/jai_codec-1.1.3.jar;/app/ccms/rel3_t1/lib/jai_core-1.1.3.jar;/app/ccms/rel3_t1/lib/jasperreports-6.2.2.jar;/app/ccms/rel3_t1/lib/javatuples-1.2.jar;/app/ccms/rel3_t1/lib/jdom2-2.0.6.jar;/app/ccms/rel3_t1/lib/kotlin-reflect-1.2.51.jar;/app/ccms/rel3_t1/lib/kotlin-stdlib-1.2.51.jar;/app/ccms/rel3_t1/lib/log4j-1.2.16.jar;/app/ccms/rel3_t1/lib/owasp-java-html-sanitizer-20160628.1.jar;/app/ccms/rel3_t1/lib/poi-3.16.jar;/app/ccms/rel3_t1/lib/rabinfingerprint-core-1.0.jar;/app/ccms/rel3_t1/vlib/blef.jar;/app/ccms/rel3_t1/vlib/btran.jar;/app/ccms/rel3_t1/vlib/ccms-cli.jar;/app/ccms/rel3_t1/vlib/ccms-share.jar;/app/ccms/rel3_t1/vlib/ccms-xml.jar;/app/ccms/rel3_t1/vlib/framework.jar;/app/ccms/rel3_t1/vlib/framework_xml.jar;/app/ccms/rel3_t1/vlib/log4j-ejb-logger-ejb-client-1.4.1.jar;/app/ccms/rel3_t1/vlib/MCS-Accessor3.1-ejbClient.jar;/app/ccms/rel3_t1/vlib/vtran.jar</classPath>
+		</settings>
+
+		<settings>
+			<name>CONTROLLER_MMPA</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>/app/mmpa/rel3_t1/config;/app/mmpa/rel3_t1/lib/bcprov-jdk15on-1.56.jar;/app/mmpa/rel3_t1/lib/commons-beanutils-1.9.3.jar;/app/mmpa/rel3_t1/lib/commons-configuration2-2.2.jar;/app/mmpa/rel3_t1/lib/commons-digester-1.8.jar;/app/mmpa/rel3_t1/lib/commons-fileupload-1.3.3.jar;/app/mmpa/rel3_t1/lib/commons-io-2.2.jar;/app/mmpa/rel3_t1/lib/commons-lang3-3.4.jar;/app/mmpa/rel3_t1/lib/commons-vfs2-2.0.jar;/app/mmpa/rel3_t1/lib/guava-19.0.jar;/app/mmpa/rel3_t1/lib/gwt-servlet-deps.jar;/app/mmpa/rel3_t1/lib/gwt-servlet.jar;/app/mmpa/rel3_t1/lib/itext-2.1.7.js5.jar;/app/mmpa/rel3_t1/lib/jai_codec-1.1.3.jar;/app/mmpa/rel3_t1/lib/jai_core-1.1.3.jar;/app/mmpa/rel3_t1/lib/jasperreports-6.2.2.jar;/app/mmpa/rel3_t1/lib/javatuples-1.2.jar;/app/mmpa/rel3_t1/lib/jdom2-2.0.6.jar;/app/mmpa/rel3_t1/lib/kotlin-reflect-1.2.51.jar;/app/mmpa/rel3_t1/lib/kotlin-stdlib-1.2.51.jar;/app/mmpa/rel3_t1/lib/log4j-1.2.16.jar;/app/mmpa/rel3_t1/lib/owasp-java-html-sanitizer-20160628.1.jar;/app/mmpa/rel3_t1/lib/poi-3.16.jar;/app/mmpa/rel3_t1/lib/rabinfingerprint-core-1.0.jar;/app/mmpa/rel3_t1/vlib/blef.jar;/app/mmpa/rel3_t1/vlib/btran.jar;/app/mmpa/rel3_t1/vlib/ccms-cli.jar;/app/mmpa/rel3_t1/vlib/ccms-share.jar;/app/mmpa/rel3_t1/vlib/ccms-xml.jar;/app/mmpa/rel3_t1/vlib/framework.jar;/app/mmpa/rel3_t1/vlib/framework_xml.jar;/app/mmpa/rel3_t1/vlib/log4j-ejb-logger-ejb-client-1.4.1.jar;/app/mmpa/rel3_t1/vlib/MCS-Accessor3.1-ejbClient.jar;/app/mmpa/rel3_t1/vlib/vtran.jar</classPath>
+		</settings>
+	</scope>
+
+	<scope Cluster="Transaction">
+		<settings>
+			<name>REST_ADAPTER</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>/app/ccms/rel3_t1/config;/app/ccms/rel3_t1/lib/bcprov-jdk15on-1.56.jar;/app/ccms/rel3_t1/lib/commons-beanutils-1.9.3.jar;/app/ccms/rel3_t1/lib/commons-configuration2-2.2.jar;/app/ccms/rel3_t1/lib/commons-lang3-3.4.jar;/app/ccms/rel3_t1/lib/commons-vfs2-2.0.jar;/app/ccms/rel3_t1/lib/jdom2-2.0.6.jar;/app/ccms/rel3_t1/lib/kotlin-reflect-1.2.51.jar;/app/ccms/rel3_t1/lib/kotlin-stdlib-1.2.51.jar;/app/ccms/rel3_t1/lib/log4j-1.2.16.jar;/app/ccms/rel3_t1/lib/rest/xerces.jar;/app/ccms/rel3_t1/lib/rest/xml-apis-1.4.01.jar;/app/ccms/rel3_t1/vlib/btran.jar;/app/ccms/rel3_t1/vlib/ccms-xml.jar;/app/ccms/rel3_t1/vlib/db-logger-ejb-client.jar;/app/ccms/rel3_t1/vlib/framework.jar;/app/ccms/rel3_t1/vlib/log4j-ejb-logger-ejb-client-1.4.1.jar;/app/ccms/rel3_t1/vlib/vtran.jar</classPath>
+		</settings>
+		
+		<settings>
+			<name>REST_ADAPTER_JERSEY</name>
+			<isolatedClassLoader>true</isolatedClassLoader>
+			<classPath>/app/ccms/rel3_t1/lib/kotlin-reflect-1.2.51.jar;/app/ccms/rel3_t1/lib/kotlin-stdlib-1.2.51.jar;/app/ccms/rel3_t1/lib/rest/hk2-api-2.5.0-b42.jar;/app/ccms/rel3_t1/lib/rest/hk2-locator-2.5.0-b42.jar;/app/ccms/rel3_t1/lib/rest/hk2-utils-2.5.0-b42.jar;/app/ccms/rel3_t1/lib/rest/jackson-annotations-2.0.2.jar;/app/ccms/rel3_t1/lib/rest/jackson-core-2.0.2.jar;/app/ccms/rel3_t1/lib/rest/jackson-databind-2.0.2.jar;/app/ccms/rel3_t1/lib/rest/javax.annotation-api-1.2.jar;/app/ccms/rel3_t1/lib/rest/javax.inject-1.jar;/app/ccms/rel3_t1/lib/rest/javax.inject-2.5.0-b42.jar;/app/ccms/rel3_t1/lib/rest/javax.ws.rs-api-2.1.jar;/app/ccms/rel3_t1/lib/rest/jersey-client.jar;/app/ccms/rel3_t1/lib/rest/jersey-common.jar;/app/ccms/rel3_t1/lib/rest/jersey-container-servlet-core.jar;/app/ccms/rel3_t1/lib/rest/jersey-container-servlet.jar;/app/ccms/rel3_t1/lib/rest/jersey-hk2.jar;/app/ccms/rel3_t1/lib/rest/jersey-media-multipart-2.26-b09.jar;/app/ccms/rel3_t1/lib/rest/jersey-server.jar</classPath>
+		</settings>
+		<settings>
+			<name>REST_CLIENT</name>
+			<isolatedClassLoader>true</isolatedClassLoader>
+			<classPath>/app/ccms/rel3_t1/lib/kotlin-reflect-1.2.51.jar;/app/ccms/rel3_t1/lib/kotlin-stdlib-1.2.51.jar;/app/ccms/rel3_t1/lib/rest/hk2-api-2.5.0-b42.jar;/app/ccms/rel3_t1/lib/rest/hk2-locator-2.5.0-b42.jar;/app/ccms/rel3_t1/lib/rest/hk2-utils-2.5.0-b42.jar;/app/ccms/rel3_t1/lib/rest/jackson-annotations-2.0.2.jar;/app/ccms/rel3_t1/lib/rest/jackson-core-2.0.2.jar;/app/ccms/rel3_t1/lib/rest/jackson-databind-2.0.2.jar;/app/ccms/rel3_t1/lib/rest/jackson-jaxrs-json-provider-2.0.2.jar;/app/ccms/rel3_t1/lib/rest/javax.ws.rs-api-2.1.jar;/app/ccms/rel3_t1/lib/rest/jersey-client.jar;/app/ccms/rel3_t1/lib/rest/jersey-common.jar;/app/ccms/rel3_t1/lib/rest/jersey-container-servlet-core.jar;/app/ccms/rel3_t1/lib/rest/jersey-container-servlet.jar;/app/ccms/rel3_t1/lib/rest/jersey-hk2.jar;/app/ccms/rel3_t1/lib/rest/jersey-media-multipart-2.26-b09.jar;/app/ccms/rel3_t1/lib/rest/jersey-server.jar</classPath>
+		</settings>
+		<settings>
+			<name>TRX</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>/app/ccms/rel3_t1;/app/ccms/rel3_t1/config;/app/ccms/rel3_t1/lib/bcprov-jdk15on-1.56.jar;/app/ccms/rel3_t1/lib/commons-beanutils-1.9.3.jar;/app/ccms/rel3_t1/lib/commons-configuration2-2.2.jar;/app/ccms/rel3_t1/lib/commons-lang3-3.4.jar;/app/ccms/rel3_t1/lib/commons-vfs2-2.0.jar;/app/ccms/rel3_t1/lib/jackson-annotations-2.0.2.jar;/app/ccms/rel3_t1/lib/jackson-core-2.0.2.jar;/app/ccms/rel3_t1/lib/jackson-databind-2.0.2.jar;/app/ccms/rel3_t1/lib/javatuples-1.2.jar;/app/ccms/rel3_t1/lib/jdom2-2.0.6.jar;/app/ccms/rel3_t1/lib/kotlin-reflect-1.2.51.jar;/app/ccms/rel3_t1/lib/kotlin-stdlib-1.2.51.jar;/app/ccms/rel3_t1/lib/log4j-1.2.16.jar;/app/ccms/rel3_t1/lib/rabinfingerprint-core-1.0.jar;/app/ccms/rel3_t1/vlib/blef.jar;/app/ccms/rel3_t1/vlib/btran.jar;/app/ccms/rel3_t1/vlib/ccms-common.jar;/app/ccms/rel3_t1/vlib/ccms-online.jar;/app/ccms/rel3_t1/vlib/ccms-share.jar;/app/ccms/rel3_t1/vlib/ccms-xml.jar;/app/ccms/rel3_t1/vlib/corner_sepa_model.jar;/app/ccms/rel3_t1/vlib/db-logger-ejb-client.jar;/app/ccms/rel3_t1/vlib/export-excel-order-ejb-client-1.0.0.jar;/app/ccms/rel3_t1/vlib/framework.jar;/app/ccms/rel3_t1/vlib/log4j-ejb-logger-ejb-client-1.4.1.jar;/app/ccms/rel3_t1/vlib/MCS-Accessor3.1-ejbClient.jar;/app/ccms/rel3_t1/vlib/separate-trx-bean-ejb-client.jar;/app/ccms/rel3_t1/vlib/vtran.jar</classPath>
+		</settings>
+		<settings>
+			<name>TRX_MMPA</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>/app/mmpa/rel3_t1:/app/mmpa/rel3_t1/config;/app/mmpa/rel3_t1/lib/bcprov-jdk15on-1.56.jar;/app/mmpa/rel3_t1/lib/commons-beanutils-1.9.3.jar;/app/mmpa/rel3_t1/lib/commons-configuration2-2.2.jar;/app/mmpa/rel3_t1/lib/commons-lang3-3.4.jar;/app/mmpa/rel3_t1/lib/commons-vfs2-2.0.jar;/app/mmpa/rel3_t1/lib/jackson-annotations-2.0.2.jar;/app/mmpa/rel3_t1/lib/jackson-core-2.0.2.jar;/app/mmpa/rel3_t1/lib/jackson-databind-2.0.2.jar;/app/mmpa/rel3_t1/lib/javatuples-1.2.jar;/app/mmpa/rel3_t1/lib/jdom2-2.0.6.jar;/app/mmpa/rel3_t1/lib/kotlin-reflect-1.2.51.jar;/app/mmpa/rel3_t1/lib/kotlin-stdlib-1.2.51.jar;/app/mmpa/rel3_t1/lib/log4j-1.2.16.jar;/app/mmpa/rel3_t1/lib/rabinfingerprint-core-1.0.jar;/app/mmpa/rel3_t1/vlib/blef.jar;/app/mmpa/rel3_t1/vlib/btran.jar;/app/mmpa/rel3_t1/vlib/ccms-common.jar;/app/mmpa/rel3_t1/vlib/ccms-online.jar;/app/mmpa/rel3_t1/vlib/ccms-share.jar;/app/mmpa/rel3_t1/vlib/ccms-xml.jar;/app/mmpa/rel3_t1/vlib/db-logger-ejb-client.jar;/app/mmpa/rel3_t1/vlib/export-excel-order-ejb-client-1.0.0.jar;/app/mmpa/rel3_t1/vlib/framework.jar;/app/mmpa/rel3_t1/vlib/log4j-ejb-logger-ejb-client-1.4.1.jar;/app/mmpa/rel3_t1/vlib/MCS-Accessor3.1-ejbClient.jar;/app/mmpa/rel3_t1/vlib/vtran.jar</classPath>
+		</settings>
+	</scope>
+</data>

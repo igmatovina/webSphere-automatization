@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<data>
+
+	<scope Cluster="NewCluster1">
+		<member Server="servv1" Node="nestor123_was9_fmw_Node">
+		</member>
+		<member Server="servv2" Node="nestor124_was9_fmw_Node">
+		</member>
+	</scope>
+
+	<scope Cluster="NewCluster2">
+		<member Server="servv3" Node="nestor123_was9_fmw_Node">
+		</member>
+		<member Server="servv4" Node="nestor124_was9_fmw_Node">
+		</member>
+	</scope>
+
+	<scope Cluster="NewCluster3">
+		<member Server="servv5" Node="nestor123_was9_fmw_Node">
+		</member>
+		<member Server="servv6" Node="nestor124_was9_fmw_Node">
+		</member>
+	</scope>
+
+</data>

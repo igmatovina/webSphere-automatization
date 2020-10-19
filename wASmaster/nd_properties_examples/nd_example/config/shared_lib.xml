@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<data>
+	<scope Cluster="TRX">
+		<settings>
+			<name>CGDEV121</name>
+			<isolatedClassLoader>true</isolatedClassLoader>
+			<classPath>"/app/cg/dev;/app/cg/dev/config;/app/cg/dev/lib/bcprov-jdk15on-1.56.jar;/app/cg/dev/solr_lib"</classPath>
+		</settings>
+
+		<settings>
+			<name>sh2</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>"/app/cg/dev;/app/cg/dev/config;/app/cg/dev/lib/bcprov-jdk15on-1.56.jar;/app/cg/dev/solr_lib2"</classPath>
+		</settings>
+
+		<settings>
+			<name>MDB121</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>"/app/cg/dev/lib/commons-lang3-3.4.jar;/app/cg/dev/lib/kotlin-reflect-1.2.51.jar;/app/cg/dev/lib/kotlin-stdlib-1.2.51.jar"</classPath>
+		</settings>
+	</scope>
+
+	<scope Server="transport1" Node="nestor123_was9_fmw_Node">
+		<settings>
+			<name>Cxdx1</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>"/app/cg/dev;/app/cg/dev/config;/app/cg/dev/lib/bcprov-jdk15on-1.56.jar;/app/cg/dev/solr_lib"</classPath>
+		</settings>
+	</scope>
+
+	<scope Node="nestor123_was9_fmw_Node">
+		<settings>
+			<name>xapi2</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>"/app/cg/dev;/app/cg/dev/config;/app/cg/dev/lib/bcprov-jdk15on-1.56.jar;/app/cg/dev/solr_lib"</classPath>
+		</settings>
+		<settings>
+			<name>sh1</name>
+			<isolatedClassLoader>true</isolatedClassLoader>
+			<classPath>"/app/cg/dev;/app/cg/dev/config;/app/cg/dev/lib/bcprov-jdk15on-1.56.jar;/app/cg/dev/solr_lib"</classPath>
+		</settings>
+	</scope>
+</data>

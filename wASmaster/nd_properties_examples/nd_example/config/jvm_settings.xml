@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<data>
+<scope Cluster="TRX">
+	<properties>
+		<classpath>/app/ccms/t2/lib/j2ee.jar</classpath>
+		<bootClassPath>/app/ccms/t2/lib/guava-19.0.jar</bootClassPath>
+		<initialHeapSize>8</initialHeapSize>
+		<maxHeapSize>220</maxHeapSize>
+		<debugMode>true</debugMode>
+		<debugArgs>agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=7779</debugArgs>
+		<propertyName>DEV.QUEUE.MANAGER180</propertyName>
+		<propertyValue>CLIENT</propertyValue>
+	</properties>
+
+	<logParameters>
+		<rolloverSize >1</rolloverSize>
+		<rolloverType>SIZE</rolloverType>
+		<errorRolloverSize>5</errorRolloverSize>
+		<errorRolloverType>SIZE</errorRolloverType>
+	</logParameters>
+
+	<processExecutionParameters>
+		<umask>020</umask>
+	</processExecutionParameters>
+</scope>
+
+<scope Cluster="TRANSPORT_CLUSTER">
+	<properties>
+		<classpath>/app/ccms/t2/lib/j2ee.jar</classpath>
+		<bootClassPath>/app/ccms/t2/lib/guava-19.0.jar</bootClassPath>
+		<initialHeapSize>8</initialHeapSize>
+		<maxHeapSize>220</maxHeapSize>
+		<debugMode>false</debugMode>
+		<debugArgs>agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=7778</debugArgs>
+		<propertyName>DEV.QUEUE.MANAGER190</propertyName>
+		<propertyValue>CLIENT</propertyValue>
+	</properties>
+
+	<logParameters>
+		<rolloverSize >2</rolloverSize>
+		<rolloverType>SIZE</rolloverType>
+		<errorRolloverSize>6</errorRolloverSize>
+		<errorRolloverType>SIZE</errorRolloverType>
+	</logParameters>
+
+	<processExecutionParameters>
+		<umask>020</umask>
+	</processExecutionParameters>
+</scope>
+
+<scope NodeAgent="nodeagent">>
+	<properties>
+		<classpath>/app/ccms/t2/lib/j2ee.jar</classpath>
+		<bootClassPath>/app/ccms/t2/lib/guava-19.0.jar</bootClassPath>
+		<initialHeapSize>8</initialHeapSize>
+		<maxHeapSize>220</maxHeapSize>
+		<debugMode>true</debugMode>
+		<debugArgs>agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=7779</debugArgs>
+		<propertyName>DEV.QUEUE.MANAGER180</propertyName>
+		<propertyValue>CLIENT</propertyValue>
+	</properties>
+
+	<processExecutionParameters>
+		<umask>020</umask>
+	</processExecutionParameters>
+
+	<logParameters>
+		<rolloverSize >2</rolloverSize>
+		<rolloverType>SIZE</rolloverType>
+		<errorRolloverSize>6</errorRolloverSize>
+		<errorRolloverType>SIZE</errorRolloverType>
+	</logParameters>
+</scope>
+
+<scope DeploymentManager="dmgr">
+	<properties>
+		<classpath>/app/ccms/t2/lib/j2ee.jar</classpath>
+		<bootClassPath>/app/ccms/t2/lib/guava-19.0.jar</bootClassPath>
+		<initialHeapSize>8</initialHeapSize>
+		<maxHeapSize>220</maxHeapSize>
+		<debugMode>true</debugMode>
+		<debugArgs>agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=7779</debugArgs>
+		<propertyName>DEV.QUEUE.MANAGER199</propertyName>
+		<propertyValue>CLIENT</propertyValue>
+	</properties>
+
+	<logParameters>
+		<rolloverSize>2</rolloverSize>
+		<rolloverType>SIZE</rolloverType>
+		<errorRolloverSize>6</errorRolloverSize>
+		<errorRolloverType>SIZE</errorRolloverType>
+	</logParameters>
+
+	<processExecutionParameters>
+		<umask>020</umask>
+	</processExecutionParameters>
+</scope>
+
+<scope Server="server1" Node ="nestor124_was9_fmw2_Node">
+	<properties>
+		<classpath>/app/ccms/t2/lib/j2ee.jar</classpath>
+		<bootClassPath>/app/ccms/t2/lib/guava-19.0.jar</bootClassPath>
+		<initialHeapSize>8</initialHeapSize>
+		<maxHeapSize>220</maxHeapSize>
+		<debugMode>true</debugMode>
+		<debugArgs>agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=7779</debugArgs>
+		<propertyName>DEV.QUEUE.MANAGER199</propertyName>
+		<propertyValue>CLIENT</propertyValue>
+	</properties>
+
+	<logParameters>
+		<rolloverSize>2</rolloverSize>
+		<rolloverType>SIZE</rolloverType>
+		<errorRolloverSize>6</errorRolloverSize>
+		<errorRolloverType>SIZE</errorRolloverType>
+	</logParameters>
+
+	<processExecutionParameters>
+		<umask>020</umask>
+	</processExecutionParameters>
+</scope>
+
+</data>
+
+
+

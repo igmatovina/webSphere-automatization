@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<data>
+
+	<connection>
+		<id>connection1</id>
+		<wmqTransportType>CLIENT</wmqTransportType>
+		<qmgrSvrconnChannel>QM.CHANNEL</qmgrSvrconnChannel>
+		<qmgrHostname>nestor120</qmgrHostname>
+		<qmgrPortNumber>1414</qmgrPortNumber>
+	</connection>
+
+	<connection>
+		<id>connection2</id>
+		<wmqTransportType >CLIENT</wmqTransportType>
+		<qmgrSvrconnChannel>QM.CHANNEL</qmgrSvrconnChannel>
+		<qmgrHostname>nestor123</qmgrHostname>
+		<qmgrPortNumber>1415</qmgrPortNumber>
+	</connection>
+
+
+	<scope Node="nestor124_was9_fmw2_Node">
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<type>QCF</type>
+			<name>alo</name>
+			<jndi>jms/qcf/alo</jndi>
+			<qmgrName>DEV.QUEUE.MANAGER50</qmgrName>
+		</attributes>
+	</scope>
+
+
+	<scope Server="server1" Node="nestor124_was9_fmw2_Node">
+		<attributes>
+			<connectionId>connection2</connectionId>
+			<type>QCF</type>
+			<name>Test0109</name>
+			<jndi>jms/qcf/test0109</jndi>
+			<qmgrName>DEV.QUEUE.MANAGER0109</qmgrName>
+		</attributes>
+
+		<attributes>
+			<connectionId>connection2</connectionId>
+			<type>QCF</type>
+			<name>novonovo2</name>
+			<jndi>jms/qcf/novonovo2</jndi>
+			<qmgrName>DEV.QUEUE.MANAGER330</qmgrName>
+		</attributes>
+	</scope>
+</data>
+
+
+

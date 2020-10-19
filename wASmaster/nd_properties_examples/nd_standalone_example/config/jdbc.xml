@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<data>
+
+	<scope Node="nestor124_was9_fmw2_Node">
+		<jdbc>
+			<name>jdbc1</name>
+			<databaseType>DB2</databaseType>
+			<providerType>DB2 Universal JDBC Driver Provider</providerType>
+			<implementationType>XA data source</implementationType>
+			<implementationClassName>com.ibm.db2.jcc.DB2XADataSource</implementationClassName>
+			<classpath>${DB2UNIVERSAL_JDBC_DRIVER_PATH}/db2jcc.jar;${UNIVERSAL_JDBC_DRIVER_PATH}/db2jcc_license_cu.jar;</classpath>
+			<description>XA DB2 JDBC Driver Vestigo</description>
+			<nativePath>${DB2UNIVERSAL_JDBC_DRIVER_nativePath}</nativePath>
+		</jdbc>
+
+		<jdbc>
+			<name>jdbc2</name>
+			<databaseType>DB2</databaseType>
+			<providerType>DB2 Universal JDBC Driver Provider</providerType>
+			<implementationType>XA data source</implementationType>
+			<implementationClassName>com.ibm.db2.jcc.DB2XADataSource</implementationClassName>
+			<classpath>${DB2UNIVERSAL_JDBC_DRIVER_PATH}/db2jcc.jar;${UNIVERSAL_JDBC_DRIVER_PATH}/db2jcc_license_cu.jar;</classpath>
+			<description>XA DB2 JDBC Driver Vestigo</description>
+			<nativePath>${DB2UNIVERSAL_JDBC_DRIVER_nativePath}</nativePath>
+		</jdbc>
+	</scope>
+
+
+	<scope Server="server1" Node="nestor124_was9_fmw2_Node">
+		<jdbc>
+			<name>jdbc4</name>
+			<databaseType>DB2</databaseType>
+			<providerType>DB2 Universal JDBC Driver Provider</providerType>
+			<implementationType>XA data source</implementationType>
+			<implementationClassName>com.ibm.db2.jcc.DB2XADataSource</implementationClassName>
+			<classpath>${DB2UNIVERSAL_JDBC_DRIVER_PATH}/db2jcc.jar;${UNIVERSAL_JDBC_DRIVER_PATH}/db2jcc_license_cu.jar;</classpath>
+			<description>XA DB2 JDBC Driver Vestigo</description>
+			<nativePath>${DB2UNIVERSAL_JDBC_DRIVER_nativePath}</nativePath>
+		</jdbc>
+	</scope>
+
+</data>
+
+
+

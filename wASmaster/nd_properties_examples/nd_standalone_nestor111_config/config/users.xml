@@ -1,0 +1,44 @@
+<users>
+
+    <user>
+        <name>cgbatch</name>
+        <pwd>Lem#nP2el</pwd>
+        <userId>cgbatch</userId>
+    </user>
+    <user>
+        <name>cgconnect</name>
+        <pwd>Pe2perm!nt</pwd>
+        <userId>cgconnect</userId>
+    </user>
+    <user>
+        <name>cgcontroller</name>
+        <pwd>Cam0m!le</pwd>
+        <userId>cgcontroller</userId>
+    </user>
+    <user>
+        <name>mqwasuser</name>
+        <pwd>08Sp3nadl4!</pwd>
+        <userId>mqwasuser</userId>
+    </user>
+    <user>
+        <name>nestor111_was9_cgdev_Node/cgbatch</name>
+        <pwd></pwd>
+        <userId>cgbatch</userId>
+    </user>
+    <user>
+        <name>nestor111_was9_cgdev_Node/cgconnect</name>
+        <pwd></pwd>
+        <userId>cgconnect</userId>
+    </user>
+    <user>
+        <name>nestor111_was9_cgdev_Node/cgcontroller</name>
+        <pwd></pwd>
+        <userId>cgcontroller</userId>
+    </user>
+    <user>
+        <name>nestor111_was9_cgdev_Node/mqwasuser</name>
+        <pwd></pwd>
+        <userId>mqwasuser</userId>
+    </user>
+
+</users>

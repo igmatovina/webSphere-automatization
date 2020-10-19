@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<data>
+	<scope Server="server1" Node="nestor124Node02">
+		<queue>
+			<name>AuthenticFlagUpdate</name>
+			<jndi>jms/queue/AuthenticFlagUpdate</jndi>
+			<queueName>GCWOD1.QU.CCMS.AUTH.FLAG.UPDATE</queueName>
+		</queue>
+
+		<queue>
+			<name>AuthenticRead</name>
+			<jndi>jms/queue/AuthenticRead</jndi>
+			<queueName>GCWOD1.QU.CCMS.AUTH.GENERIC.WRITE</queueName>
+		</queue>
+
+		<queue>
+			<name>AuthenticSendCustomerData</name>
+			<jndi>jms/queue/AuthenticSendCustomerData</jndi>
+			<queueName>GCWOD1.QU.CCMS.AUTH.SEND.CUSTOMER.DATA</queueName>
+		</queue>
+
+		<queue>
+			<name>AuthenticWrite</name>
+			<jndi>jms/queue/AuthenticWrite</jndi>
+			<queueName>GCWOD1.QU.AUTH.CCMS.GENERIC.WRITE</queueName>
+		</queue>
+
+		<queue>
+			<name>CancelLetterCC</name>
+			<jndi>jms/queue/CancelLetterCC</jndi>
+			<queueName>CCCHD1.QU.CCMS.INSPIRE.LET.CANC.READ</queueName>
+		</queue>
+
+		<queue>
+			<name>CancelLetterCE</name>
+			<jndi>jms/queue/CancelLetterCE</jndi>
+			<queueName>CCEUD1.QU.CCMS.INSPIRE.LET.CANC.READ</queueName>
+		</queue>
+
+		<queue>
+			<name>CancelLetterCU</name>
+			<jndi>jms/queue/CancelLetterCU</jndi>
+			<queueName>CCUKD1.QU.CCMS.INSPIRE.LET.CANC.READ</queueName>
+		</queue>
+
+		<queue>
+			<name>CardholderCertificateCC</name>
+			<jndi>jms/queue/CardholderCertificateCC</jndi>
+			<queueName>CCCHD1.QU.CCMS.INSPIRE.SEND.CDH.CERT</queueName>
+		</queue>
+
+		<queue>
+			<name>CardholderCertificateCE</name>
+			<jndi>jms/queue/CardholderCertificateCE</jndi>
+			<queueName>CCEUD1.QU.CCMS.INSPIRE.SEND.CDH.CERT</queueName>
+		</queue>
+
+		<queue>
+			<name>CardholderCertificateCU</name>
+			<jndi>jms/queue/CardholderCertificateCU</jndi>
+			<queueName>CCUKD1.QU.CCMS.INSPIRE.SEND.CDH.CERT</queueName>
+		</queue>
+
+		<queue>
+			<name>CaseManagementInput</name>
+			<jndi>jms/queue/CaseManagementInput</jndi>
+			<queueName>GCWOD1.QU.EVTBUS.CCMS.CASE.MANAGEMENT</queueName>
+		</queue>
+
+		<queue>
+			<name>CaseManagementOutput</name>
+			<jndi>jms/queue/CaseManagementOutput</jndi>
+			<queueName>GCWOD1.QU.CCMS.EVTBUS.CASE.MANAGEMENT</queueName>
+		</queue>
+
+		<queue>
+			<name>CollateralLetterRequest</name>
+			<jndi>jms/queue/CollateralLetterRequest</jndi>
+			<queueName>GCWOD1.QU.EVTBUS.CCMS.LETTER</queueName>
+		</queue>
+
+		<queue>
+			<name>ContractUpdate</name>
+			<jndi>jms/queue/ContractUpdate</jndi>
+			<queueName>CCWOD1.QU.COLLATERAL.CCMS.LET.REQUEST.WRITE</queueName>
+		</queue>
+
+		<queue>
+			<name>CustomerLetterUpdateCC</name>
+			<jndi>jms/queue/CustomerLetterUpdateCC</jndi>
+			<queueName>CCCHD1.QU.CCMS.INSPIRE.LET.STATUS.WRITE</queueName>
+		</queue>
+
+		<queue>
+			<name>CustomerLetterUpdateCE</name>
+			<jndi>jms/queue/CustomerLetterUpdateCE</jndi>
+			<queueName>CCEUD1.QU.CCMS.INSPIRE.LET.STATUS.WRITE</queueName>
+		</queue>
+
+		<queue>
+			<name>CustomerLetterUpdateCU</name>
+			<jndi>jms/queue/CustomerLetterUpdateCU</jndi>
+			<queueName>CCUKD1.QU.CCMS.INSPIRE.LET.STATUS.WRITE</queueName>
+		</queue>
+
+		<queue>
+			<name>DynacosBookedDatiCC</name>
+			<jndi>jms/queue/DynacosBookedDatiCC</jndi>
+			<queueName>CCCHD1.QU.DYNACOS.CCMS.BOOKED.DATI</queueName>
+		</queue>
+
+		<queue>
+			<name>DynacosBookedDatiCE</name>
+			<jndi>jms/queue/DynacosBookedDatiCE</jndi>
+			<queueName>CCEUD1.QU.DYNACOS.CCMS.BOOKED.DATI</queueName>
+		</queue>
+
+		<queue>
+			<name>DynacosCreditDatiCC</name>
+			<jndi>jms/queue/DynacosCreditDatiCC</jndi>
+			<queueName>CCCHD1.QU.CCMS.DYNACOS.CREDIT.DATI</queueName>
+		</queue>
+
+		<queue>
+			<name>DynacosCreditResponseCC</name>
+			<jndi>jms/queue/DynacosCreditResponseCC</jndi>
+			<queueName>CCCHD1.QU.DYNACOS.CCMS.CREDIT.RESPONSE</queueName>
+		</queue>
+
+		<queue>
+			<name>DynacosCreditResponseCE</name>
+			<jndi>jms/queue/DynacosCreditResponseCE</jndi>
+			<queueName>CCEUD1.QU.DYNACOS.CCMS.CREDIT.RESPONSE</queueName>
+		</queue>
+
+		<queue>
+			<name>EventBus3DSEnrollmentReq</name>
+			<jndi>jms/queue/EventBus3DSEnrollmentReq</jndi>
+			<queueName>GCWOD1.QU.CCMS.3DS.ENROLLMENT.REQUEST</queueName>
+		</queue>
+
+		<queue>
+			<name>EventBus3DSEnrollmentRes</name>
+			<jndi>jms/queue/EventBus3DSEnrollmentRes</jndi>
+			<queueName>GCWOD1.QU.CCMS.3DS.ENROLLMENT.RESPONSE</queueName>
+		</queue>
+
+		<queue>
+			<name>EventBusAcqNotification</name>
+			<jndi>jms/queue/EventBusAcqNotification</jndi>
+			<queueName>GCWOD1.QU.CCMS.EVTBUS.AUTOMATIC.ACQ</queueName>
+		</queue>
+
+		<queue>
+			<name>EventBusEntityStatus</name>
+			<jndi>jms/queue/EventBusEntityStatus</jndi>
+			<queueName>GCWOD1.QU.EVTBUS.CCMS.ENTITYSTATUS</queueName>
+		</queue>
+
+		<queue>
+			<name>EventBusRead</name>
+			<jndi>jms/queue/EventBusRead</jndi>
+			<queueName>GCWOD1.QU.CCMS.EVTBUS.GENERIC.READ</queueName>
+		</queue>
+
+		<queue>
+			<name>EventBusScores</name>
+			<jndi>jms/queue/EventBusScores</jndi>
+			<queueName>GCWOD1.QU.EVTBUS.CCMS.SCORES</queueName>
+		</queue>
+
+		<queue>
+			<name>EventBusSolrUpdate</name>
+			<jndi>jms/queue/EventBusSolrUpdate</jndi>
+			<queueName>CCWOD1.QU.CCMS.EVTBUS.SOLR.UPDATE</queueName>
+		</queue>
+
+		<queue>
+			<name>EventBusWrite</name>
+			<jndi>jms/queue/EventBusWrite</jndi>
+			<queueName>GCWOD1.QU.CCMS.EVTBUS.GENERIC.WRITE</queueName>
+		</queue>
+
+		<queue>
+			<name>FractalsStatusUpdate</name>
+			<jndi>jms/queue/FractalsStatusUpdate</jndi>
+			<queueName>GCWOD1.QU.FRACTALS.STATUS.UPDATE</queueName>
+		</queue>
+
+		<queue>
+			<name>SendLetterRequestCC</name>
+			<jndi>jms/queue/SendLetterRequestCC</jndi>
+			<queueName>CCCHD1.QU.CCMS.INSPIRE.LET.REQUEST.READ</queueName>
+		</queue>
+
+		<queue>
+			<name>SendLetterRequestCE</name>
+			<jndi>jms/queue/SendLetterRequestCE</jndi>
+			<queueName>CCEUD1.QU.CCMS.INSPIRE.LET.REQUEST.READ</queueName>
+		</queue>
+
+		<queue>
+			<name>SendLetterRequestCU</name>
+			<jndi>jms/queue/SendLetterRequestCU</jndi>
+			<queueName>CCUKD1.QU.CCMS.INSPIRE.LET.REQUEST.READ</queueName>
+		</queue>
+
+		<queue>
+			<name>test2</name>
+			<jndi>jms/test2</jndi>
+			<queueName>CCUKD1.QU.CCMS.INSPIRE.LET.REQUEST.test2</queueName>
+		</queue>
+	</scope>
+</data>
+
+
+

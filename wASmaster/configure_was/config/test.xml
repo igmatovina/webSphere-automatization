@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<data>
+	<scope Cluster="TRX">
+		<activationAttributes>
+			<connectionId>connection2</connectionId>
+			<name>FractalsStatusUpdate122</name>
+			<jndi>jms/as/AC1</jndi>
+			<destinationJndi>jms/queue/FractalsStatusUpdate</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection2</connectionId>
+			<name>noviACtest2</name>
+			<jndi>jms/as/AC12</jndi>
+			<destinationJndi>jms/queue/FractalsStatusUpdate</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+	</scope>
+
+	<scope Server="Trx01" Node="nestor123_was9_fmw_Node">
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>AC508</name>
+			<jndi>jndi/AC508</jndi>
+			<destinationJndi>testq</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+	</scope>
+
+	<scope Node="nestor123_was9_fmw_Node">
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>AC3</name>
+			<jndi>jndi/AC3</jndi>
+			<destinationJndi>testq</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection2</connectionId>
+			<name>AC4</name>
+			<jndi>jms/as/AC4</jndi>
+			<destinationJndi>jms/queue/FractalsStatusUpdate</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+	</scope>
+
+</data>

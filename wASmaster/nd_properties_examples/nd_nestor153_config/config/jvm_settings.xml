@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<data>
+<scope Cluster="Controller">
+	<configuration>
+		<initialHeapSize>256</initialHeapSize>
+		<maxHeapSize>1024</maxHeapSize>
+		<debugMode>false</debugMode>
+		<debugArgs>agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=7777</debugArgs>
+	</configuration>
+	
+	<customProperties>
+		<customProperty>
+			<propertyName>KC_HOME</propertyName>
+			<propertyValue>/opt/IBM/WebSphere/AppServer/systemApps/isclite.ear/isclite.war/help</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>SERVER_LOG_ROOT</propertyName>
+			<propertyValue>${SERVER_LOG_ROOT}</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.security.jgss.debug</propertyName>
+			<propertyValue>off</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.security.krb5.Krb5Debug</propertyName>
+			<propertyValue>off</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.ws.cdi.enableCDI</propertyName>
+			<propertyValue>false</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.ws.cdi.enableImplicitBeanArchives</propertyName>
+			<propertyValue>false</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.wsspi.amm.merge.ignoreValidationExceptions</propertyName>
+			<propertyValue>true</propertyValue>
+		</customProperty>
+
+	</customProperties>
+
+	<logParameters>
+		<rolloverSize>20</rolloverSize>
+		<rolloverType>SIZE</rolloverType>
+		<errorRolloverSize>20</errorRolloverSize>
+		<errorRolloverType>SIZE</errorRolloverType>
+	</logParameters>
+
+	<processExecutionParameters>
+		<umask>002</umask>
+	</processExecutionParameters>
+</scope>
+
+
+<scope Cluster="Transaction">
+	<configuration>
+		<initialHeapSize>256</initialHeapSize>
+		<maxHeapSize>1024</maxHeapSize>
+		<debugMode>false</debugMode>
+		<debugArgs>agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=7777</debugArgs>
+	</configuration>
+	
+	<customProperties>
+		<customProperty>
+			<propertyName>KC_HOME</propertyName>
+			<propertyValue>/opt/IBM/WebSphere/AppServer/systemApps/isclite.ear/isclite.war/help</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>SERVER_LOG_ROOT</propertyName>
+			<propertyValue>${SERVER_LOG_ROOT}</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.security.jgss.debug</propertyName>
+			<propertyValue>off</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.security.krb5.Krb5Debug</propertyName>
+			<propertyValue>off</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.ws.cdi.enableCDI</propertyName>
+			<propertyValue>false</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.ws.cdi.enableImplicitBeanArchives</propertyName>
+			<propertyValue>false</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.wsspi.amm.merge.ignoreValidationExceptions</propertyName>
+			<propertyValue>true</propertyValue>
+		</customProperty>
+
+	</customProperties>
+
+	<logParameters>
+		<rolloverSize>20</rolloverSize>
+		<rolloverType>SIZE</rolloverType>
+		<errorRolloverSize>20</errorRolloverSize>
+		<errorRolloverType>SIZE</errorRolloverType>
+	</logParameters>
+
+	<processExecutionParameters>
+		<umask>002</umask>
+	</processExecutionParameters>
+</scope>
+</data>
+
+
+
+

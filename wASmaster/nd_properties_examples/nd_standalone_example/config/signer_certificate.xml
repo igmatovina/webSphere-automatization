@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<data>
+	<scope Cell="nestor124_was9_fmw2_Cell">
+		<connection>
+			<host>dms.vestigo.hr</host>
+			<port>443</port>
+			<keyStoreName>CellDefaultKeyStore</keyStoreName>
+			<certificateAlias>serverHostSigner200</certificateAlias>
+		</connection>
+	</scope>
+
+	<scope Cell="nestor124_was9_fmw2_Cell" Node="nestor124_was9_fmw2_Node">
+		<connection>
+			<host>dms.vestigo.hr</host>
+			<port>443</port>
+			<keyStoreName>NodeDefaultKeyStore</keyStoreName>
+			<certificateAlias>serverHostSigner200</certificateAlias>
+		</connection>
+	</scope>
+
+	<scope Cell="nestor124_was9_fmw2_Cell" Server="server1" Node="nestor124_was9_fmw2_Node">
+		<connection>
+			<host>dms.vestigo.hr</host>
+			<port>443</port>
+			<keyStoreName>ServerDefaultKeyStore</keyStoreName>
+			<certificateAlias>serverHostSigner200</certificateAlias>
+		</connection>
+	</scope>
+
+</data>

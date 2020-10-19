@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<data>
+	<properties>
+		<ldapHost>nestor5.vestigo.hr</ldapHost>
+		<ldapPort>389</ldapPort>
+		<ldapServerType>ACTIVE_DIRECTORY</ldapServerType>
+		<baseDN>OU=Vestigo,DC=vestigo,DC=hr</baseDN>
+		<bindDN>CN=bind,OU=System,OU=Users,OU=Vestigo,DC=vestigo,DC=hr</bindDN>
+		<bindPassword>Tk0S1Gdj3si</bindPassword>
+		<searchTimeout>120</searchTimeout>
+		<reuseConnection>true</reuseConnection>
+		<sslEnabled>false</sslEnabled>
+		<autoGenerateServerId >true</autoGenerateServerId >
+		<primaryAdminId>CN=bind,OU=System,OU=Users,OU=Vestigo,DC=vestigo,DC=hr</primaryAdminId>
+		<ignoreCase>true</ignoreCase>
+		<verifyRegistry>false</verifyRegistry>
+		<roleName>adminsecuritymanager</roleName>
+		<enableGlobalSecurity>true</enableGlobalSecurity>
+		<activeUserRegistry>LDAPUserRegistry</activeUserRegistry>
+		<appSecurityEnabled>true</appSecurityEnabled>
+		<groupRoles>
+			<adGroup>CN=wasadmin,OU=System,OU=Groups,OU=Vestigo,DC=vestigo,DC=hr@nestor5.vestigo.hr:389</adGroup>
+			<roleName>adminsecuritymanager</roleName>
+			<roleName>administrator</roleName>
+		</groupRoles>
+
+	</properties>
+</data>
+
+
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<data>
+	<scope Cell="nestor123_was9_fwk_test_Dmgr_Cell">
+		<attribute>
+			<name>DB2UNIVERSAL_JDBC_DRIVER_PATH</name>
+			<value></value>
+		</attribute>
+		<attribute>
+			<name>DB2UNIVERSAL_JDBC_DRIVER_NATIVEPATH</name>
+			<value></value>
+		</attribute>
+		<attribute>
+			<name>DB2UNIVERSAL_JDBC_DRIVER_PATH</name>
+			<value></value>
+		</attribute>
+		<attribute>
+			<name>UNIVERSAL_JDBC_DRIVER_PATH</name>
+			<value></value>
+		</attribute>
+	</scope>
+		
+	<scope Node="nestor123_was9_fw_test_Node  ">
+		<attribute>
+			<name>DB2UNIVERSAL_JDBC_DRIVER_PATH</name>
+			<value>/opt/ibm/db2/V11.1/java/</value>   
+		</attribute>
+	</scope>
+	
+	<scope Node="nestor124_was9_fw_test_Node  ">
+		<attribute>
+			<name>DB2UNIVERSAL_JDBC_DRIVER_PATH</name>
+			<value>/opt/ibm/db2/V11.1/java/</value>   
+		</attribute>
+	</scope>
+
+	
+</data>

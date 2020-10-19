@@ -1,0 +1,13 @@
+WAS_USERNAME=$(whoami)
+#if [ $WAS_USERNAME != "deploy" ]
+#then
+#        echo
+#        echo "Korisnik $WAS_USERNAME nema pravo citaja ove datoteke" 
+#        echo
+#        exit 1
+#fi
+
+key_file=".key"
+cre_file=".cre"
+WAS_PASSWORD="$(openssl enc -aes-256-cbc -d -in ${cre_file} -a -salt -pass file:${key_file})"
+

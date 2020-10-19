@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<data>
+	<scope Cell="nestor123_was9_fmw_Dmgr_Cell">
+		<connection>
+			<host>dms.vestigo.hr</host>
+			<port>443</port>
+			<keyStoreName>CellDefaultKeyStore</keyStoreName>
+			<certificateAlias>serverHostSigner200</certificateAlias>
+		</connection>
+	</scope>
+
+	<scope Cell="nestor123_was9_fmw_Dmgr_Cell" Node="nestor124_was9_fmw_Node">
+		<connection>
+			<host>dms.vestigo.hr</host>
+			<port>443</port>
+			<keyStoreName>NodeDefaultKeyStore</keyStoreName>
+			<certificateAlias>serverHostSigner200</certificateAlias>
+		</connection>
+	</scope>
+
+	<scope Cell="nestor123_was9_fmw_Dmgr_Cell" Server="noviserver1" Node="nestor123_was9_fmw_Node">
+		<connection>
+			<host>dms.vestigo.hr</host>
+			<port>443</port>
+			<keyStoreName>ServerDefaultKeyStore</keyStoreName>
+			<certificateAlias>serverHostSigner200</certificateAlias>
+		</connection>
+	</scope>
+
+
+	<scope Cell="nestor123_was9_fmw_Dmgr_Cell" Cluster="NOVICLUSTER200">
+		<connection>
+			<host>dms.vestigo.hr</host>
+			<port>443</port>
+			<keyStoreName>ClusterDefaultKeyStore</keyStoreName>
+			<certificateAlias>serverHostSigner200</certificateAlias>
+		</connection>
+	</scope>
+
+</data>

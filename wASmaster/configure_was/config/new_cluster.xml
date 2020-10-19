@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<data>
+
+	<scope Cluster="Controller">
+		<member Server="Controller_01" Node="nestor123_was9_fw_test_Node">
+		</member>
+	</scope>
+
+	<scope Cluster="Transaction">
+		<member Server="Trx_01" Node="nestor124_was9_fw_test_Node">
+		</member>
+	</scope>
+
+</data>

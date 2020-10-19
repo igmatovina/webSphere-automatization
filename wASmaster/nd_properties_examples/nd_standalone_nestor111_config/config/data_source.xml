@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<data>
+	<connection>
+		<id>connection1</id>
+		<server>localhost</server>
+		<port>50000</port>
+		<database>CGRAZVOJ</database>
+		<provider>DB2 Universal JDBC Driver Provider (XA)</provider>
+	</connection>
+
+	<connection>
+		<id>connection2</id>
+		<server></server>
+		<port></port>
+		<database>${APP_INSTALL_ROOT}/${CELL}/DefaultApplication.ear/DefaultDB</database>
+		<provider>Derby JDBC Provider</provider>
+	</connection>
+	
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>CGDEV</name>
+			<jdbc>jdbc/cgdev</jdbc>
+			<user>nestor111_was9_cgdev_Node/cgconnect</user>
+			<userXA>nestor111_was9_cgdev_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+		<customProperties>
+
+			<customProperty>
+				<name>useJDBC4ColumnNameAndLabelSemantics</name>
+				<value>2</value>
+				<type>java.lang.String</type>
+				<description></description>
+			</customProperty>
+	
+		</customProperties>
+	</dataSource>
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>CGDEV-JMS</name>
+			<jdbc>jdbc/cgdev2</jdbc>
+			<user>nestor111_was9_cgdev_Node/cgbatch</user>
+			<userXA>nestor111_was9_cgdev_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+		<customProperties>
+			<customProperty>
+				<name>useJDBC4ColumnNameAndLabelSemantics</name>
+				<value>2</value>
+				<type>java.lang.String</type>
+				<description></description>
+			</customProperty>
+		</customProperties>
+	</dataSource>
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>CGDEV_CONTROLLER</name>
+			<jdbc>jdbc/cgdev-controller</jdbc>
+			<user>nestor111_was9_cgdev_Node/cgbatch</user>
+			<userXA>nestor111_was9_cgdev_Node/cgcontroller</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+		<customProperties>
+			<customProperty>
+				<name>useJDBC4ColumnNameAndLabelSemantics</name>
+				<value>2</value>
+				<type>java.lang.String</type>
+				<description></description>
+			</customProperty>
+		</customProperties>
+	</dataSource>
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>PKGCGDEV</name>
+			<jdbc>jdbc/pkgcgdev</jdbc>
+			<user>nestor111_was9_cgdev_Node/cgbatch</user>
+			<userXA>nestor111_was9_cgdev_Node/cgconnect</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+		<customProperties>
+			<customProperty>
+				<name>useJDBC4ColumnNameAndLabelSemantics</name>
+				<value>2</value>
+				<type>java.lang.String</type>
+				<description></description>
+			</customProperty>
+		</customProperties>
+	</dataSource>
+
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>PKGCGDEV-CONTROLLER</name>
+			<jdbc>jdbc/pkgcgdev-controller</jdbc>
+			<user>nestor111_was9_cgdev_Node/cgbatch</user>
+			<userXA>nestor111_was9_cgdev_Node/cgcontroller</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+		<customProperties>
+			<customProperty>
+				<name>useJDBC4ColumnNameAndLabelSemantics</name>
+				<value>2</value>
+				<type>java.lang.String</type>
+				<description></description>
+			</customProperty>
+		</customProperties>
+	</dataSource>
+
+
+</data>
+
+
+

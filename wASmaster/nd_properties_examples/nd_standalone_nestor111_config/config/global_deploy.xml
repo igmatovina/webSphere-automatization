@@ -1,0 +1,10 @@
+<globaldeploy>
+
+    <properties>
+        <monitoredDirectoryDeployment>true</monitoredDirectoryDeployment>
+        <pollingInterval>5</pollingInterval>
+        <monitoredDirectory>/app/cg/dev/ear4central</monitoredDirectory>
+    </properties>
+
+
+</globaldeploy>

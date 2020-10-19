@@ -1,0 +1,19 @@
+<users>
+
+    <user>
+        <name>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</name>
+        <pwd>Lem#nP2el</pwd>
+        <userId>cgbatch</userId>
+    </user>
+    <user>
+        <name>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</name>
+        <pwd>Pe2perm!nt</pwd>
+        <userId>cgconnect</userId>
+    </user>
+    <user>
+        <name>nestor123_was9_fwk_test_Dmgr_Node/mqwasuser</name>
+        <pwd>Cam0m!le</pwd>
+        <userId>mqwasuser</userId>
+    </user>
+
+</users>

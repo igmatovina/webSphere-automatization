@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<data>
+
+	<connection>
+		<id>connection1</id>
+		<wmqTransportType>CLIENT</wmqTransportType>
+		<qmgrSvrconnChannel>QM.CHANNEL</qmgrSvrconnChannel>
+		<qmgrHostname>nestor118</qmgrHostname>
+		<qmgrPortNumber>1414</qmgrPortNumber>
+	</connection>
+
+	<connection>
+		<id>connection2</id>
+		<wmqTransportType >CLIENT</wmqTransportType>
+		<qmgrSvrconnChannel>QM.CHANNEL</qmgrSvrconnChannel>
+		<qmgrHostname>nestor123</qmgrHostname>
+		<qmgrPortNumber>1415</qmgrPortNumber>
+	</connection>
+
+	<scope Server="server1" Node="nestor124Node02">
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<type>QCF</type>
+			<name>CCMS</name>
+			<jndi>jms/qcf/ccms</jndi>
+			<qmgrName>DEV.QUEUE.MANAGER</qmgrName>
+		</attributes>
+
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<type>QCF</type>
+			<name>CCMS_CE</name>
+			<jndi>jms/qcf/ccmsCCEU</jndi>
+			<qmgrName>DEV.QUEUE.MANAGER</qmgrName>
+		</attributes>
+
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<type>QCF</type>
+			<name>CCMS_CH</name>
+			<jndi>jms/qcf/ccmsCCCH</jndi>
+			<qmgrName>DEV.QUEUE.MANAGER</qmgrName>
+		</attributes>
+
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<type>QCF</type>
+			<name>CCMS_CU</name>
+			<jndi>jms/qcf/ccmsCCUK</jndi>
+			<qmgrName>DEV.QUEUE.MANAGER</qmgrName>
+		</attributes>
+
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<type>QCF</type>
+			<name>test</name>
+			<jndi>jms/qcf/test</jndi>
+			<qmgrName>DEV.QUEUE.MANAGER.test</qmgrName>
+		</attributes>
+	</scope>
+</data>
+
+
+

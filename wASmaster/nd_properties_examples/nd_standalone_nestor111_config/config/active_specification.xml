@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<data>
+	<connection>
+		<id>connection1</id>
+		<qmgrName>DEV.QUEUE.MANAGER</qmgrName>
+		<wmqTransportType>CLIENT</wmqTransportType>
+		<qmgrSvrconnChannel>QM.CHANNEL</qmgrSvrconnChannel>
+		<qmgrHostname>nestor118</qmgrHostname>
+		<qmgrPortNumber>1414</qmgrPortNumber>
+	</connection>
+
+	<connection>
+		<id>connection2</id>
+		<qmgrName>DEV.QUEUE.MANAGER</qmgrName>
+		<wmqTransportType>BINDINGS_THEN_CLIENT</wmqTransportType>
+		<qmgrSvrconnChannel>QM.CHANNEL</qmgrSvrconnChannel>
+		<qmgrHostname>nestor118</qmgrHostname>
+		<qmgrPortNumber>1414</qmgrPortNumber>
+	</connection>
+
+	<scope Node="nestor124Node02">
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>Authentic</name>
+			<jndi>jms/as/Authentic</jndi>
+			<destinationJndi>jms/queue/AuthenticWrite</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>CaseManagement</name>
+			<jndi>jms/as/CaseManagement</jndi>
+			<destinationJndi>jms/queue/CaseManagementInput</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>CollateralLetterRequest</name>
+			<jndi>jms/queue/CollateralLetterRequest</jndi>
+			<destinationJndi>jms/queue/AuthenticWrite</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>ContractUpdate</name>
+			<jndi>jms/as/ContractUpdate</jndi>
+			<destinationJndi>jms/queue/ContractUpdate</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>CustomerLetterUpdateCC</name>
+			<jndi>jms/as/CustomerLetterUpdateCC</jndi>
+			<destinationJndi>jms/queue/CustomerLetterUpdateCC</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>CustomerLetterUpdateCE</name>
+			<jndi>jms/as/CustomerLetterUpdateCE</jndi>
+			<destinationJndi>jms/queue/CustomerLetterUpdateCE</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>CustomerLetterUpdateCU</name>
+			<jndi>jms/as/CustomerLetterUpdateCU</jndi>
+			<destinationJndi>jms/queue/CustomerLetterUpdateCU</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>DynacosBookedDatiCC</name>
+			<jndi>jms/as/DynacosBookedDatiCC</jndi>
+			<destinationJndi>jms/queue/DynacosBookedDatiCC</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>DynacosBookedDatiCE</name>
+			<jndi>jms/as/DynacosBookedDatiCE</jndi>
+			<destinationJndi>jms/queue/DynacosBookedDatiCE</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>DynacosCreditResponseCC</name>
+			<jndi>jms/as/DynacosCreditResponseCC</jndi>
+			<destinationJndi>jms/queue/DynacosCreditResponseCC</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>DynacosCreditResponseCE</name>
+			<jndi>jms/as/DynacosCreditResponseCE</jndi>
+			<destinationJndi>jms/queue/DynacosCreditResponseCE</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>EventBus</name>
+			<jndi>jms/as/EventBus</jndi>
+			<destinationJndi>jms/queue/EventBusWrite</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection2</connectionId>
+			<name>EventBus3DSEnrollmentRes</name>
+			<jndi>jms/as/EventBus3DSEnrollmentRes</jndi>
+			<destinationJndi>jms/queue/EventBus3DSEnrollmentRes</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>EventBusEntityStatus</name>
+			<jndi>jms/as/EventBusEntityStatus</jndi>
+			<destinationJndi>jms/queue/EventBusEntityStatus</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>EventBusScores</name>
+			<jndi>jms/as/EventBusScores </jndi>
+			<destinationJndi>jms/queue/EventBusScores</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>FractalsStatusUpdate</name>
+			<jndi>jms/as/FractalsStatusUpdate</jndi>
+			<destinationJndi>jms/queue/FractalsStatusUpdate</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+
+		<activationAttributes>
+			<connectionId>connection1</connectionId>
+			<name>test</name>
+			<jndi>jms/as/test</jndi>
+			<destinationJndi>jms/queue/test</destinationJndi>
+			<destinationType>javax.jms.Queue</destinationType>
+		</activationAttributes>
+	</scope>
+
+
+</data>

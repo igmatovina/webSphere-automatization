@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<data>
+	<scope Node="nestor124_was9_fmw2_Node">
+		<queue>
+			<name>NOVIqueue2 </name>
+			<jndi>jms/as/AuthenticFlagUpdate310</jndi>
+			<queueName>GCWOD1.QU.CCMS.AUTH.FLAG.UPDATE300</queueName>
+		</queue>
+	</scope>
+
+	<scope Server="server1" Node="nestor124_was9_fmw2_Node">
+		<queue>
+			<name>AuthenticFlagUpdate300</name>
+			<jndi>jms/as/AuthenticFlagUpdate300</jndi>
+			<queueName>GCWOD1.QU.CCMS.AUTH.FLAG.UPDATE300</queueName>
+		</queue>
+
+		<queue>
+			<name>SKIPTEST</name>
+			<jndi>jms/as/SkipTest</jndi>
+			<queueName>GCWOD1.QU.CCMS.AUTH.FLAG.SKIP</queueName>
+		</queue>
+	</scope>
+
+</data>
+
+
+

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<data>
+	<scope Server="server1" Node="nestor124Node02">
+		<settings>
+			<name>CONTROLLER_CCMS</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>/app/cg/dev/config;/app/cg/dev/lib/bcprov-jdk15on-1.56.jar;/app/cg/dev/lib/commons-beanutils-1.9.3.jar;/app/cg/dev/lib/commons-configuration2-2.2.jar;/app/cg/dev/lib/commons-digester-1.8.jar;/app/cg/dev/lib/commons-fileupload-1.3.3.jar;/app/cg/dev/lib/commons-io-2.2.jar;/app/cg/dev/lib/commons-lang3-3.4.jar;/app/cg/dev/lib/commons-vfs2-2.0.jar;/app/cg/dev/lib/guava-19.0.jar;/app/cg/dev/lib/gwt-servlet-deps.jar;/app/cg/dev/lib/gwt-servlet.jar;/app/cg/dev/lib/itext-2.1.7.js5.jar;/app/cg/dev/lib/jai_codec-1.1.3.jar;/app/cg/dev/lib/jai_core-1.1.3.jar;/app/cg/dev/lib/jasperreports-6.2.2.jar;/app/cg/dev/lib/javatuples-1.2.jar;/app/cg/dev/lib/jdom2-2.0.6.jar;/app/cg/dev/lib/log4j-1.2.16.jar;/app/cg/dev/lib/kotlin-reflect-1.2.51.jar;/app/cg/dev/lib/kotlin-stdlib-1.2.51.jar;/app/cg/dev/lib/owasp-java-html-sanitizer-20160628.1.jar;/app/cg/dev/lib/poi-3.16.jar;/app/cg/dev/lib/rabinfingerprint-core-1.0.jar;/app/cg/dev/vlib/framework.jar;/app/cg/dev/vlib/blef.jar;/app/cg/dev/vlib/ccms-cli.jar;/app/cg/dev/vlib/ccms-share.jar;/app/cg/dev/vlib/ccms-xml.jar;/app/cg/dev_client/classes;/app/cg/dev/vlib/MCS-Accessor3.1-ejbClient.jar</classPath>
+		</settings>
+		<settings>
+			<name>CONTROLLER_MMPA</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>/app/pkgcg/dev/config;/app/pkgcg/dev/lib/bcprov-jdk15on-1.56.jar;/app/pkgcg/dev/lib/commons-beanutils-1.9.3.jar;/app/pkgcg/dev/lib/commons-configuration2-2.2.jar;/app/pkgcg/dev/lib/commons-digester-1.8.jar;/app/pkgcg/dev/lib/commons-fileupload-1.3.3.jar;/app/pkgcg/dev/lib/commons-io-2.2.jar;/app/pkgcg/dev/lib/commons-lang3-3.4.jar;/app/pkgcg/dev/lib/commons-vfs2-2.0.jar;/app/pkgcg/dev/lib/guava-19.0.jar;/app/pkgcg/dev/lib/gwt-servlet-deps.jar;/app/pkgcg/dev/lib/gwt-servlet.jar;/app/pkgcg/dev/lib/itext-2.1.7.js5.jar;/app/pkgcg/dev/lib/jai_codec-1.1.3.jar;/app/pkgcg/dev/lib/jai_core-1.1.3.jar;/app/pkgcg/dev/lib/jasperreports-6.2.2.jar;/app/pkgcg/dev/lib/javatuples-1.2.jar;/app/pkgcg/dev/lib/jdom2-2.0.6.jar;/app/pkgcg/dev/lib/kotlin-reflect-1.2.51.jar;/app/pkgcg/dev/lib/kotlin-stdlib-1.2.51.jar;/app/pkgcg/dev/lib/log4j-1.2.16.jar;/app/pkgcg/dev/lib/owasp-java-html-sanitizer-20160628.1.jar;/app/pkgcg/dev/lib/poi-3.16.jar;/app/pkgcg/dev/lib/rabinfingerprint-core-1.0.jar;/app/pkgcg/dev/vlib/framework.jar;/app/pkgcg/dev_client/classes;/app/pkgcg/dev/vlib/MCS-Accessor3.1-ejbClient.jar</classPath>
+		</settings>
+		<settings>
+			<name>REST_ADAPTER</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>/app/cg/dev/lib/jdom2-2.0.6.jar;/app/cg/dev/lib/commons-vfs2-2.0.jar;/app/cg/dev/lib/log4j-1.2.16.jar;/app/cg/dev/lib/commons-lang3-3.4.jar;/app/cg/dev/lib/bcprov-jdk15on-1.56.jar;/app/cg/dev/lib/commons-beanutils-1.9.3.jar;/app/cg/dev/lib/commons-configuration2-2.2.jar;/app/cg/dev/vlib/framework.jar;/app/cg/dev/vlib/btran.jar;/app/cg/dev/vlib/vtran.jar;/app/cg/dev/config;/app/cg/dev/lib/rest/xml-apis-1.4.01.jar;/app/cg/dev/lib/rest/xerces.jar;/app/cg/dev/lib/kotlin-reflect-1.2.51.jar;/app/cg/dev/lib/kotlin-stdlib-1.2.51.jar;/app/si/dev/vlib/db-logger-ejb-client.jar</classPath>
+		</settings>
+		<settings>
+			<name>REST_ADAPTER_JERSEY</name>
+			<isolatedClassLoader>true</isolatedClassLoader>
+			<classPath>/app/cg/dev/lib/rest/yasson-1.0.jar;/app/cg/dev/lib/rest/validation-api-1.1.0.Final.jar;/app/cg/dev/lib/rest/persistence-api-1.0.jar;/app/cg/dev/lib/rest/osgi-resource-locator-1.0.1.jar;/app/cg/dev/lib/rest/org.osgi.core-4.2.0.jar;/app/cg/dev/lib/rest/jsr250-api-1.0.jar;/app/cg/dev/lib/rest/jersey-server.jar;/app/cg/dev/lib/rest/jersey-media-sse.jar;/app/cg/dev/lib/rest/jersey-media-json-binding.jar;/app/cg/dev/lib/rest/jersey-media-jaxb.jar;/app/cg/dev/lib/rest/jersey-hk2.jar;/app/cg/dev/lib/rest/jersey-container-servlet-core.jar;/app/cg/dev/lib/rest/jersey-container-servlet.jar;/app/cg/dev/lib/rest/jersey-common.jar;/app/cg/dev/lib/rest/jersey-client.jar;/app/cg/dev/lib/rest/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar;/app/cg/dev/lib/rest/jaxb-api-2.2.7.jar;/app/cg/dev/lib/rest/javax.ws.rs-api-2.1-m09.jar;/app/cg/dev/lib/rest/javax.servlet-api-3.0.1.jar;/app/cg/dev/lib/rest/javax.json-api-1.1.jar;/app/cg/dev/lib/rest/javax.json-1.1.jar;/app/cg/dev/lib/rest/javax.json.bind-api-1.0.jar;/app/cg/dev/lib/rest/javax.inject-2.5.0-b42.jar;/app/cg/dev/lib/rest/javax.inject-1.jar;/app/cg/dev/lib/rest/javax.annotation-api-1.2.jar;/app/cg/dev/lib/rest/jackson-core-2.0.2.jar;/app/cg/dev/lib/rest/jackson-databind-2.0.2.jar;/app/cg/dev/lib/rest/jackson-annotations-2.0.2.jar;/app/cg/dev/lib/rest/javassist-3.22.0-CR2.jar;/app/cg/dev/lib/rest/hk2-utils-2.5.0-b42.jar;/app/cg/dev/lib/rest/hk2-locator-2.5.0-b42.jar;/app/cg/dev/lib/rest/hk2-api-2.5.0-b42.jar;/app/cg/dev/lib/rest/el-api-2.2.jar;/app/cg/dev/lib/rest/cdi-api-1.1.jar;/app/cg/dev/lib/rest/aopalliance-repackaged-2.5.0-b42.jar;/app/cg/dev/lib/rest/jersey-media-multipart-2.26-b09.jar;/app/cg/dev/lib/kotlin-reflect-1.2.51.jar;/app/cg/dev/lib/kotlin-stdlib-1.2.51.jar</classPath>
+		</settings>
+		<settings>
+			<name>REST_CLIENT</name>
+			<isolatedClassLoader>true</isolatedClassLoader>
+			<classPath>/app/cg/dev/lib/rest/jersey-server.jar;/app/cg/dev/lib/rest/jersey-hk2.jar;/app/cg/dev/lib/rest/jersey-container-servlet-core.jar;/app/cg/dev/lib/rest/jersey-container-servlet.jar;/app/cg/dev/lib/rest/jersey-common.jar;/app/cg/dev/lib/rest/jersey-client.jar;/app/cg/dev/lib/rest/jersey-media-multipart-2.26-b09.jar;/app/cg/dev/lib/rest/javax.ws.rs-api-2.1.jar;/app/cg/dev/lib/rest/hk2-utils-2.5.0-b42.jar;/app/cg/dev/lib/rest/hk2-locator-2.5.0-b42.jar;/app/cg/dev/lib/rest/hk2-api-2.5.0-b42.jar;/app/cg/dev/lib/rest/jackson-annotations-2.0.2.jar;/app/cg/dev/lib/rest/jackson-databind-2.0.2.jar;/app/cg/dev/lib/rest/jackson-core-2.0.2.jar;/app/cg/dev/lib/rest/jackson-jaxrs-json-provider-2.0.2.jar;/app/cg/dev/lib/kotlin-reflect-1.2.51.jar;/app/cg/dev/lib/kotlin-stdlib-1.2.51.jar"</classPath>
+		</settings>
+		<settings>
+			<name>TRX</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>/app/cg/dev;/app/cg/dev/config;/app/cg/dev/lib/bcprov-jdk15on-1.56.jar;/app/cg/dev/lib/commons-beanutils-1.9.3.jar;/app/cg/dev/lib/commons-configuration2-2.2.jar;/app/cg/dev/lib/commons-lang3-3.4.jar;/app/cg/dev/lib/commons-vfs2-2.0.jar;/app/cg/dev/lib/jackson-annotations-2.0.2.jar;/app/cg/dev/lib/jackson-databind-2.0.2.jar;/app/cg/dev/lib/jackson-core-2.0.2.jar;/app/cg/dev/lib/javatuples-1.2.jar;/app/cg/dev/lib/jdom2-2.0.6.jar;/app/cg/dev/lib/log4j-1.2.16.jar;/app/cg/dev/lib/kotlin-reflect-1.2.51.jar;/app/cg/dev/lib/kotlin-stdlib-1.2.51.jar;/app/cg/dev/lib/rabinfingerprint-core-1.0.jar;/app/cg/dev/vlib/framework.jar;/app/cg/dev/vlib/blef.jar;/app/cg/dev/vlib/export-excel-order-ejb-client-1.0.0.jar;/app/cg/dev/vlib/db-logger-ejb-client.jar;/app/cg/dev/vlib/separate-trx-bean-ejb-client.jar;/app/cg/dev/vlib/corner_sepa_model.jar;/app/cg/dev/vlib/ccms-common.jar;/app/cg/dev/vlib/ccms-online.jar;/app/cg/dev/vlib/ccms-share.jar;/app/cg/dev/vlib/ccms-xml.jar;/app/cg/dev/solr_lib</classPath>
+		</settings>
+		<settings>
+			<name>TRX_MMPA</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>/app/pkgcg/dev;/app/pkgcg/dev/config;/app/pkgcg/dev/lib/bcprov-jdk15on-1.56.jar;/app/pkgcg/dev/lib/commons-beanutils-1.9.3.jar;/app/pkgcg/dev/lib/commons-configuration2-2.2.jar;/app/pkgcg/dev/lib/commons-lang3-3.4.jar;/app/pkgcg/dev/lib/commons-vfs2-2.0.jar;/app/pkgcg/dev/lib/jackson-annotations-2.0.2.jar;/app/pkgcg/dev/lib/jackson-databind-2.0.2.jar;/app/pkgcg/dev/lib/jackson-core-2.0.2.jar;/app/pkgcg/dev/lib/javatuples-1.2.jar;/app/pkgcg/dev/lib/jdom2-2.0.6.jar;/app/pkgcg/dev/lib/log4j-1.2.16.jar;/app/pkgcg/dev/lib/kotlin-reflect-1.2.51.jar;/app/pkgcg/dev/lib/kotlin-stdlib-1.2.51.jar;/app/pkgcg/dev/lib/rabinfingerprint-core-1.0.jar;/app/pkgcg/dev/vlib/framework.jar</classPath>
+		</settings>
+		<settings>
+			<name>test</name>
+			<isolatedClassLoader>false</isolatedClassLoader>
+			<classPath>/app/pkgcg/dev;/app/pkgcg/dev/config;/app/pkgcg/dev/lib/bcprov-jdk15on-1.56.jar;/app/pkgcg/dev/lib/commons-beanutils-1.9.3.jar;/app/pkgcg/dev/lib/commons-configuration2-2.2.jar;/app/pkgcg/dev/lib/commons-lang3-3.4.jar;/app/pkgcg/dev/lib/commons-vfs2-2.0.jar;/app/pkgcg/dev/lib/jackson-annotations-2.0.2.jar;/app/pkgcg/dev/lib/jackson-databind-2.0.2.jar;/app/pkgcg/dev/lib/jackson-core-2.0.2.jar;/app/pkgcg/dev/lib/javatuples-1.2.jar;/app/pkgcg/dev/lib/jdom2-2.0.6.jar;/app/pkgcg/dev/lib/log4j-1.2.16.jar;/app/pkgcg/dev/lib/kotlin-reflect-1.2.51.jar;/app/pkgcg/dev/lib/kotlin-stdlib-1.2.51.jar;/app/pkgcg/dev/lib/rabinfingerprint-core-1.0.jar;/app/pkgcg/dev/vlib/framework.jar</classPath>
+		</settings>
+	</scope>
+</data>

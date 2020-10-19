@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<data>
+
+	<scope Node="nestor124Node02">
+		<jdbc>
+			<name>DB2 Universal JDBC Driver Provider</name>
+			<databaseType>DB2</databaseType>
+			<providerType>DB2 Universal JDBC Driver Provider</providerType>
+			<implementationType>Connection pool data source</implementationType>
+			<implementationClassName>com.ibm.db2.jcc.DB2ConnectionPoolDataSource</implementationClassName>
+			<classpath>${DB2UNIVERSAL_JDBC_DRIVER_PATH}/db2jcc4.jar;${UNIVERSAL_JDBC_DRIVER_PATH}/db2jcc_license_cu.jar;${DB2UNIVERSAL_JDBC_DRIVER_PATH}/db2jcc_license_cisuz.jar;</classpath>
+			<description>One-phase commit DB2 JCC provider that supports JDBC 3.0. Data sources that use this provider support only 1-phase commit processing, unless you use driver type 2 with the application server for z/OS. If you use the application server for z/OS, driver type 2 uses RRS and supports 2-phase commit processing. </description>
+			<nativePath>${DB2UNIVERSAL_JDBC_DRIVER_NATIVEPATH}</nativePath>
+		</jdbc>
+
+
+		<jdbc>
+			<name>DB2 Universal JDBC Driver Provider (XA)</name>
+			<databaseType>DB2</databaseType>
+			<providerType>DB2 Universal JDBC Driver Provider</providerType>
+			<implementationType>XA data source</implementationType>
+			<implementationClassName>com.ibm.db2.jcc.DB2XADataSource</implementationClassName>
+			<classpath>${DB2UNIVERSAL_JDBC_DRIVER_PATH}/db2jcc4.jar;${UNIVERSAL_JDBC_DRIVER_PATH}/db2jcc_license_cu.jar;</classpath>
+			<description>Two-phase commit DB2 JCC provider that supports JDBC 3.0. Data sources that use this provider support the use of XA to perform 2-phase commit processing. Use of driver type 2 on the application server for z/OS is not supported for data sources created under this provider.</description>
+			<nativePath>${DB2UNIVERSAL_JDBC_DRIVER_NATIVEPATH}</nativePath>
+		</jdbc>
+	</scope>
+
+
+	<scope Server="server1" Node="nestor124Node02">
+		<jdbc>
+			<name>Derby JDBC Provider</name>
+			<databaseType>Derby</databaseType>
+			<providerType>Derby JDBC Provider</providerType>
+			<implementationType>Connection pool data source</implementationType>
+			<implementationClassName>org.apache.derby.jdbc.EmbeddedConnectionPoolDataSource</implementationClassName>
+			<classpath>${DERBY_JDBC_DRIVER_PATH}/derby.jar;</classpath>
+			<description>Derby embedded non-XA  JDBC Provider</description>
+			<nativePath></nativePath>
+		</jdbc>
+	</scope>
+
+</data>
+
+
+

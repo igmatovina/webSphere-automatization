@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<data>
+	<connection>
+		<id>connection1</id>
+		<server>192.168.255.111</server>
+		<port>50000</port>
+		<database>CGRAZVOJ</database>
+		<provider>jdbc1</provider>
+	</connection>
+
+	<connection>
+		<id>connection2</id>
+		<server>192.168.255.112</server>
+		<port>50002</port>
+		<database>CGRAZVOJ2</database>
+		<provider>jdbc4</provider>
+	</connection>
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>najnovijaaaaa2</name>
+			<jdbc>jdbc/aaaaaaaaa2</jdbc>
+			<user>cgconnect</user>
+			<userXA>cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+		<customProperties>
+			<customProperty>
+				<name>currentPackageSet</name>
+				<value>A1CC1-edit</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+			<customProperty>
+				<name>currentSchema</name>
+				<value>A1CG1</value>
+				<type>java.lang.String</type>
+				<description>edited description</description>
+			</customProperty>
+			<customProperty>
+				<name>newprop</name>
+				<value>dx100</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+			<customProperty>
+				<name>newprop20</name>
+				<value>dx20</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+			<customProperty>
+				<name>Novi</name>
+				<value>dx20-novi</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+		</customProperties>
+	</dataSource>
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>ds12222</name>
+			<jdbc>jdbc/ds12222</jdbc>
+			<user>cgconnect</user>
+			<userXA>cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+		<customProperties>
+			<customProperty>
+				<name>currentPackageSet</name>
+				<value>A1CC1-edit</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+			<customProperty>
+				<name>currentSchema</name>
+				<value>A1CG1</value>
+				<type>java.lang.String</type>
+				<description>edited description</description>
+			</customProperty>
+			<customProperty>
+				<name>newprop</name>
+				<value>dx100</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+			<customProperty>
+				<name>newprop20</name>
+				<value>dx20</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+			<customProperty>
+				<name>Novi</name>
+				<value>dx20-novi-stari-edit</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+			<customProperty>
+				<name>Novi2</name>
+				<value>dx20-novi2</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+		</customProperties>
+	</dataSource>
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>ds2</name>
+			<jdbc>jdbc/ds2</jdbc>
+			<user>cgconnect</user>
+			<userXA>cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+		<customProperties>
+			<customProperty>
+				<name>currentPackageSet</name>
+				<value>A1Cccc2</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+			<customProperty>
+				<name>currentSchema</name>
+				<value>A1CcccG2</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+			<customProperty>
+				<name>newprop20</name>
+				<value>dx20-edit</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+		</customProperties>
+	</dataSource>
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection2</connectionId>
+			<name>ds3</name>
+			<jdbc>jdbc/ds3</jdbc>
+			<user>cgbatch</user>
+			<userXA>cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+		<customProperties>
+			<customProperty>
+				<name>currentPackageSet</name>
+				<value>A1CC3</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+			<customProperty>
+				<name>currentSchema</name>
+				<value>A1CG3</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+			<customProperty>
+				<name>newprop</name>
+				<value>dx100</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+			<customProperty>
+				<name>newprop123</name>
+				<value>dx100</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+		</customProperties>
+	</dataSource>
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>ds4</name>
+			<jdbc>jdbc/ds4</jdbc>
+			<user>cgconnect</user>
+			<userXA>cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+		<customProperties>
+			<customProperty>
+				<name>currentPackageSet</name>
+				<value>A1CC1</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+		</customProperties>
+	</dataSource>
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>NOVIdataTest232232222224</name>
+			<jdbc>jdbc/test2323422222222</jdbc>
+			<user>cgconnect</user>
+			<userXA>cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+		<customProperties>
+			<customProperty>
+				<name>currentPackageSet</name>
+				<value>A1CC1</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+		</customProperties>
+	</dataSource>
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>novadsTEST</name>
+			<jdbc>jdbc/novadsTest</jdbc>
+			<user>cgconnect</user>
+			<userXA>cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+		<customProperties>
+			<customProperty>
+				<name>currentPackageSet</name>
+				<value>A1CC1</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+
+			<customProperty>
+				<name>Testproperty</name>
+				<value>testvalue</value>
+				<type>java.lang.String</type>
+				<description>no desc</description>
+			</customProperty>
+
+		</customProperties>
+	</dataSource>
+
+</data>
+
+
+

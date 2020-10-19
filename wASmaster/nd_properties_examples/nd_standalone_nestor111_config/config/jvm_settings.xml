@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<data>
+<scope Server="server1" Node="nestor124Node02">
+	<configuration>
+		<initialHeapSize>1536</initialHeapSize>
+		<maxHeapSize>2048</maxHeapSize>
+		<debugMode>true</debugMode>
+		<debugArgs>agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=7777</debugArgs>
+	</configuration>
+	
+	<customProperties>
+		<customProperty>
+			<propertyName>KC_HOME</propertyName>
+			<propertyValue>/opt/IBM/WebSphere/AppServer/systemApps/isclite.ear/isclite.war/help</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>SERVER_LOG_ROOT</propertyName>
+			<propertyValue>${SERVER_LOG_ROOT}</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.security.jgss.debug</propertyName>
+			<propertyValue>off</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.security.krb5.Krb5Debug</propertyName>
+			<propertyValue>off</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.ws.cdi.enableCDI</propertyName>
+			<propertyValue>false</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>com.ibm.ws.cdi.enableImplicitBeanArchives</propertyName>
+			<propertyValue>false</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>java.util.prefs.userRoot</propertyName>
+			<propertyValue>/tmp</propertyValue>
+		</customProperty>
+
+		<customProperty>
+			<propertyName>test</propertyName>
+			<propertyValue>/test2</propertyValue>
+		</customProperty>
+	</customProperties>
+
+
+
+
+	<logParameters>
+		<rolloverSize>20</rolloverSize>
+		<rolloverType>SIZE</rolloverType>
+		<errorRolloverSize>20</errorRolloverSize>
+		<errorRolloverType>SIZE</errorRolloverType>
+	</logParameters>
+
+	<processExecutionParameters>
+		<umask>002</umask>
+	</processExecutionParameters>
+</scope>
+</data>
+
+
+
+

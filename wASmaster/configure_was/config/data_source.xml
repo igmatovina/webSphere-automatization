@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<data>
+	<connection>
+		<id>connection1</id>
+		<server>nestor152</server>
+		<port>50000</port>
+		<database>rel3t1db</database>
+		<provider>DB2 Universal JDBC Driver Provider (XA) CNTRL</provider>
+	</connection>
+
+	<connection>
+		<id>connection2</id>
+		<server>nestor152</server>
+		<port>50000</port>
+		<database>rel3t1db</database>
+		<provider>DB2 Universal JDBC Driver Provider (XA) TRX</provider>
+	</connection>
+	
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>ControllerCC</name>
+			<jdbc>jdbc/ccmsCCCH_Cnt</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+		
+	</dataSource>
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>ControllerCC_MMPA</name>
+			<jdbc>jdbc/mmpaCCCH_Cnt</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+	</dataSource>
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>ControllerCE</name>
+			<jdbc>jdbc/ccmsCCEU_Cnt</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+	</dataSource>
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>ControllerCE_MMPA</name>
+			<jdbc>jdbc/mmpaCCEU_Cnt</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+
+	</dataSource>
+
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>ControllerCU</name>
+			<jdbc>jdbc/ccmsCCUK_Cnt</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+	</dataSource>
+
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection1</connectionId>
+			<name>ControllerCU_MMPA</name>
+			<jdbc>jdbc/mmpaCCUK_Cnt</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+	</dataSource>
+
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection2</connectionId>
+			<name>TrxCC</name>
+			<jdbc>jdbc/ccmsCCCH_Trx</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+	</dataSource>
+
+
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection2</connectionId>
+			<name>TrxCC_JMS</name>
+			<jdbc>jdbc/ccmsCCCH_Jms</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+	</dataSource>
+
+
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection2</connectionId>
+			<name>TrxCC_MMPA</name>
+			<jdbc>jdbc/mmpaCCCH_Trx</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+	</dataSource>
+
+
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection2</connectionId>
+			<name>TrxCE</name>
+			<jdbc>jdbc/ccmsCCEU_Trx</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+	</dataSource>
+
+
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection2</connectionId>
+			<name>TrxCE_JMS</name>
+			<jdbc>jdbc/ccmsCCEU_Jms</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+	</dataSource>
+
+
+
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection2</connectionId>
+			<name>TrxCE_MMPA</name>
+			<jdbc>jdbc/mmpaCCEU_Trx</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+	</dataSource>
+
+
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection2</connectionId>
+			<name>TrxCU</name>
+			<jdbc>jdbc/ccmsCCUK_Trx</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+	</dataSource>
+
+
+
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection2</connectionId>
+			<name>TrxCU_JMS</name>
+			<jdbc>jdbc/ccmsCCUK_Jms</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+	</dataSource>
+
+	<dataSource>
+		<attributes>
+			<connectionId>connection2</connectionId>
+			<name>TrxCU_MMPA</name>
+			<jdbc>jdbc/mmpaCCUK_Trx</jdbc>
+			<user>nestor123_was9_fwk_test_Dmgr_Node/cgconnect</user>
+			<userXA>nestor123_was9_fwk_test_Dmgr_Node/cgbatch</userXA>
+			<helperClassName>com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper</helperClassName>
+			<driverType>java.lang.Integer 4</driverType>
+		</attributes>
+	</dataSource>
+
+
+</data>
+
+
+

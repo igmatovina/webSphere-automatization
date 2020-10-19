@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<data>
+	<scope Cell="nestor123_was9_fwk_test_Dmgr_Cell">
+		<connection>
+			<host>mock.vestigo.hr</host>
+			<port>8445</port>
+			<keyStoreName>CellDefaultTrustStore</keyStoreName>
+			<certificateAlias>ws_mock</certificateAlias>
+		</connection>
+	</scope>
+
+	<scope Cell="nestor123_was9_fwk_test_Dmgr_Cell" Node="nestor124_was9_fw_test_Node">
+		<connection>
+			<host>dms.vestigo.hr</host>
+			<port>443</port>
+			<keyStoreName>NodeDefaultTrustStore</keyStoreName>
+			<certificateAlias>root</certificateAlias>
+		</connection>
+	</scope>
+
+	<scope Cell="nestor123_was9_fwk_test_Dmgr_Cell" Node="nestor123_was9_fw_test_Node">
+		<connection>
+			<host>dms.vestigo.hr</host>
+			<port>443</port>
+			<keyStoreName>NodeDefaultTrustStore</keyStoreName>
+			<certificateAlias>root</certificateAlias>
+		</connection>
+	</scope>
+</data>

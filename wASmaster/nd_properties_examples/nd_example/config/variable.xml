@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<data>
+	<scope Cluster="TRX">
+		<attribute>
+			<name>var11</name>
+			<value>opt/ibm/db2/V11.1/java</value>
+		</attribute>
+
+		<attribute>
+			<name>var2</name>
+			<value>opt/ibm/db2/V11.1/java</value>
+		</attribute>
+	</scope>
+
+	<scope Server="transport1" Node="nestor123_was9_fmw_Node">
+		<attribute>
+			<name>var3</name>
+			<value>opt/ibm/db2/V11.1/java</value>
+		</attribute>
+
+		<attribute>
+			<name>notExist22</name>
+			<value>opt/ibm/db2/V11.1/java</value>
+		</attribute>
+	</scope>
+
+	<scope Node="nestor123_was9_fmw_Node">
+		<attribute>
+			<name>test_variable336</name>
+			<value>opt/ibm/db2/V11.1/java</value>
+		</attribute>
+
+		<attribute>
+			<name>notExist</name>
+			<value>opt/ibm/db2/V11.1/java</value>
+		</attribute>
+
+		<attribute>
+			<name>Testprolaza444</name>
+			<value>opt/ibm/db2/V11.1/java</value>
+		</attribute>
+
+		<attribute>
+			<name>newOne1</name>
+			<value>opt/ibm/db2/V11.1/java</value>
+		</attribute>
+
+	</scope>
+
+</data>

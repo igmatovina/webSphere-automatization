@@ -1,0 +1,10 @@
+<globaldeploy>
+
+    <properties>
+        <monitoredDirectoryDeployment>true</monitoredDirectoryDeployment>
+        <pollingInterval>4</pollingInterval>
+        <monitoredDirectory>${USER_INSTALL_ROOT}/monitoredDeployableApps3</monitoredDirectory>
+    </properties>
+
+
+</globaldeploy>

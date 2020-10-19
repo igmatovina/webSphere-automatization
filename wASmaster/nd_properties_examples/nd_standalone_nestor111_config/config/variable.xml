@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<data>
+	<scope Node="nestor124Node02">
+		<attribute>
+			<name>DB2UNIVERSAL_JDBC_DRIVER_PATH</name>
+			<value>/opt/ibm/db2/V11.1/java</value>
+		</attribute>
+		<attribute>
+			<name>test</name>
+			<value>/opt/ibm/db2/V11.1/test</value>
+		</attribute>
+	</scope>
+
+	
+</data>
